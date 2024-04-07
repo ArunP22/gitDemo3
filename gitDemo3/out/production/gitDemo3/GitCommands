@@ -2,3 +2,9 @@ create a branch -> git branch branchName
 move to branch -> git checkout branchName
 
 create and move to branch -> git checkout -b branchName
+
+git stash -> temporarily save the changes and clear your modified files from new changes and store it for later use.
+git stash pop -> apply the saved changes and clean your stash(delete all from stash)
+git stash apply apply the saved changes, keeping the modified files still in stash
+git stash clear -> delete all changes in stash.
+stash acts like a stack ->LIFO
